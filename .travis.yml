@@ -8,7 +8,7 @@ branches:
 notifications:
   email:
     recipients:
-    - rosariopili26@gmail.com
+    - rosario.orbezo.pastrana@alumnos.upm.es
 script:
 - mvn verify
 - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
