@@ -23,18 +23,18 @@
 # Descripción del proyecto
 >Se parte de un proyecto ya desarrollado, y se pretende realizar una ampliación del mismo.
 
->En la actualidad, el proyecto consta de cuatro clases:
->###Point -> Almacena coordenadas en dos dimensiones, ofreciendo diversas funcionalidades.
->###User -> Almacena un identificador, el nombre y apellido, controlando el formato del mismo y mostrando diferentes representaciones.
->###DecimalColecction -> Maneja una colección de valores decimales de tipo double.
->###Fraction, maneja fracciones matemáticas.
-**Es responsabilidad del arquitecto realizar los test de cada clase en su versión inicial.
+> En la actualidad, el proyecto consta de cuatro clases:
+> * Point -> Almacena coordenadas en dos dimensiones, ofreciendo diversas funcionalidades.
+> * User -> Almacena un identificador, el nombre y apellido, controlando el formato del mismo y mostrando diferentes representaciones.
+> * DecimalColecction -> Maneja una colección de valores decimales de tipo double.
+> * Fraction, maneja fracciones matemáticas.
+**Es responsabilidad del arquitecto realizar los test de cada clase en su versión inicial**.
 
 ### Las ampliaciones establecidas son las siguientes:
 
 ### Point
 * **Aumentar a una tercera coordenada**
-
+ 
 ### User
 * **login** , este método retornara un String que estara conformado por la inicial del **nombre** concatenado con el **apellido**.
 
@@ -54,8 +54,15 @@ No olvidéis, si con tanto cambio se produce descontrol y pánico!!! enfocar un 
 
 ## Pasos a seguir
 ### Fase 1. Integrantes de los proyectos
-Sorteo para asignar a cada Arquitecto su equipo de tres Programadores. Incluir en la plataforma los datos menos el repositorio.
 
+**Arquitecto:**
++ **Rosario Orbezo** 
+
+**Programadores:**
+ + **Angélica Guamán**
+ + **Tomás Muñoz**
+ + **Vanesa Paniego**
+ 
 ### Fase 2. Preparar proyecto en el repositorio
 El Arquitecto deberá preparar el proyecto en su cuenta de GitHub.
 
