@@ -53,4 +53,10 @@ public class Fraction {
         return denominator;
     }
 
+    public boolean isEquivalente(Fraction fraction) {
+        assert fraction != null;
+
+        return (this.getNumerator() * fraction.getDenominator()) == (this.getDenominator() * fraction.getNumerator());
+    }
+
 }
