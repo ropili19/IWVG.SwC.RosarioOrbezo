@@ -59,4 +59,8 @@ public class Fraction {
         return (this.getNumerator() * fraction.getDenominator()) == (this.getDenominator() * fraction.getNumerator());
     }
 
+    public boolean isPropia() {
+        return (this.numerator < this.denominator);
+    }
+
 }
