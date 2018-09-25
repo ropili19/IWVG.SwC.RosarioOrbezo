@@ -63,4 +63,8 @@ public class Fraction {
         return (this.numerator < this.denominator);
     }
 
+    public Fraction inversaFraction() {
+        return new Fraction(this.denominator, this.numerator);
+    }
+
 }
