@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>IWVG.SwC.RosarioOrbezo</artifactId>
 	<groupId>es.upm.miw</groupId>
-	<version>1.1.0-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}.${project.artifactId}</name>
@@ -101,7 +101,7 @@
 		<developer>
 			<name>Rosario Orbezo</name>
 			<id>ropili19</id>
-			<email>j.bernal@upm.es</email>
+			<email>rosario.orbezo.pastrana@alumnos.upm.es</email>
 			<organization>MIW UPM</organization>
 			<roles>
 				<role>Architect</role>
