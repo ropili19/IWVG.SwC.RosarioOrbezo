@@ -50,4 +50,12 @@ public class DecimalCollection {
         return higher;
     }
 
+    public double menor() {
+        assert collection != null;
+        if (this.collection.isEmpty()) {
+            throw new ArithmeticException("Empty collection");
+        }
+        return this.collection.stream().mapToDouble(i -> i).min().getAsDouble();
+    }
+
 }

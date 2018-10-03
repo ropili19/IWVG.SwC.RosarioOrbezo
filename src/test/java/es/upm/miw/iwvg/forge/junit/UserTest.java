@@ -1,5 +1,7 @@
 package es.upm.miw.iwvg.forge.junit;
 
+import org.apache.logging.log4j.LogManager;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -37,5 +39,16 @@ public class UserTest {
         assertNotEquals(2,this.user.getNumber());
     }
 
+    @Test
+    void testLogin(){
+        assertEquals("ROrbezo", user.login());
+        assertNotEquals("R.Orbezo", user.login());
+    }
+
+    @Test
+    void testLoginIfIllegalArgumentException(){
+        IllegalArgumentException exception = (Assertions.assertThrows(IllegalArgumentException.class, () -> new User(1, " ", "Perez").login()));
+        LogManager.getLogger(this.getClass()).debug(exception.getMessage());
+    }
 
 }
